@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>Sol&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Sol's blog">
 <meta property="og:url" content="http://yoursite.com/">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Sol's blog">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Sol's blog">
 <meta name="twitter:description">
 
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Sol&#39;s blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -35,7 +35,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">Sol&#39;s blog</a>
       </h1>
       
     </div>
@@ -63,10 +63,68 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-new-post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/01/29/new-post/" class="article-date">
+  <time datetime="2015-01-29T09:14:36.000Z" itemprop="datePublished">1月 29 2015</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/01/29/new-post/">my new post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>R语言</p>
+<p>?lm==help(lm)<br>??lm==help.search(lm)<br>example(lm)</p>
+<p>object()<br>ls()    #display the names of (most of) the objects which are currentlystored within R<br>rm()</p>
+<p>source(“commands.R”)<br>sink(“record.lis”)</p>
+<p>x &lt;- c(10.4, 5.6, 3.1, 6.4, 21.7)<br>assign(“x”, c(10.4, 5.6, 3.1, 6.4, 21.7))c(10.4, 5.6, 3.1, 6.4, 21.7) -&gt; x y &lt;- c(x, 0, x)<br>range==c(min(x),max(x))<br>prod(x)   #x=c(2,3) =&gt;prod(x)==2*3</p>
+<p>var(x)==sum((x-mean(x))^2)/(length(x)-1)</p>
+<p>2*1:15 is the vector c(2, 4, …, 28, 30)<br>That is seq(2,10) is the same vector as 2:10.</p>
+<p>seq(1,30), seq(from=1, to=30) and seq(to=30, from=1)<br>by=value and length=value</p>
+<p>rep(x, times=5)<br>rep(x, each=5)<br>is.na(x)<br>is.nan(xx)</p>
+<p>labs &lt;- paste(c(“X”,”Y”), 1:10, sep=””)makes labs into the character vector<br>c(“X1”, “Y2”, “X3”, “Y4”, “X5”, “Y6”, “X7”, “Y8”, “X9”, “Y10”)<br> y &lt;- x<a href="x+1">!is.na(x)</a>[(!is.na(x)) &amp; x&gt;0] -&gt; z</p>
+<p>c(“x”,”y”)[rep(c(1,2,2,1), times=4)]</p>
+<p>excluded rather than included. Thus</p>
+<blockquote>
+<p>y &lt;- x[-(1:5)]</p>
+<p>fruit &lt;- c(5, 10, 1, 20)<br>names(fruit) &lt;- c(“orange”, “banana”, “apple”, “peach”)<br>lunch &lt;- fruit[c(“apple”,”orange”)]</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/01/29/new-post/" data-id="1nvlsgna6duzdvk5" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章/">博客，文章</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/01/29/hello-world/" class="article-date">
-  <time datetime="2015-01-29T06:53:51.000Z" itemprop="datePublished">Jan 29 2015</time>
+  <time datetime="2015-01-29T06:53:51.000Z" itemprop="datePublished">1月 29 2015</time>
 </a>
     
   </div>
@@ -123,16 +181,37 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blog/">blog</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客，文章/">博客，文章</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/博客，文章/" style="font-size: NaNpx;">博客，文章</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -142,6 +221,10 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2015/01/29/new-post/">my new post</a>
+          </li>
         
           <li>
             <a href="/2015/01/29/hello-world/">Hello World</a>
@@ -159,7 +242,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 John Doe<br>
+      &copy; 2015 sol<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
